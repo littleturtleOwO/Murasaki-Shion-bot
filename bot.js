@@ -12,7 +12,6 @@
             msg.channel.send('測試') ;
 
 
-
         }
     }) ;
 
