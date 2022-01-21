@@ -1,7 +1,7 @@
     const {Client, RichEmbed, Discord} = require('discord.js') ;
     const client = new Client ;
     const settings = require('./settings.json') ;
-    const {Client, RichEmbed, Discord} = require('discord.js') ;
+   
    
 
    
@@ -12,7 +12,7 @@
     const { MessageEmbed } = require('discord.js');
   
     client.on('ready',()=>{
-        console.log(`${client.user.tag} NEEEEEEEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!!!!!!！`) ;
+        console.log(`${client.user.tag} NEEEEEEEEEEEEEEEEEEEEEEE!!!!!!`) ;
     }) ;
 
     client.on('message',msg=>{
