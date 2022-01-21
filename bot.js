@@ -86,7 +86,7 @@
             case 29:msg.send('等待一個更好的時機') ;break ;
             case 30:msg.send('owo') ;break ;
 
-        }}
+        }}};
         function Radom(max,min) {
                 var rnd = Math.floor(Math.random()*max)+min ;
                 return rnd ;
@@ -103,7 +103,7 @@
             msg.channel.bulkDelete(1).then(() => {
                 });}
            
-    }}) ;                 
+}) ;                 
            
          
         
