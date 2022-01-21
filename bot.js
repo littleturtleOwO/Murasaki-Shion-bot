@@ -21,7 +21,7 @@
             msg.channel.send('owo?') ;
             }
  
-    if(msg.content.includes('@小助理 安安')){ //隨機回答 安安
+    if(msg.content.includes('安安')){ //隨機回答 安安
         if(msg.author.bot)
             return;
         var rnd = Radom(10,1) ;
