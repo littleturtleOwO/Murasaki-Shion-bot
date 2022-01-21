@@ -1,11 +1,6 @@
     const {Client, RichEmbed, Discord} = require('discord.js') ;
     const client = new Client ;
     const settings = require('./settings.json') ;
-   
-   
-
-   
-    const ytdl = require('ytdl-core');
     const { token } = require('./settings.json');
     const { prefix } = require('./settings.json');
 
